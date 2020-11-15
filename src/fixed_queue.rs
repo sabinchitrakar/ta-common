@@ -50,9 +50,12 @@ impl<T:Copy> FixedQueue<T> {
         return self.queue.len();
     }
 
-    pub fn at(&self, index:u32) -> T {
+    pub fn at(&self, index:i32) -> Option<T> {
+        if index<0 || index> (self.queue.len() as i32 - 1i32) as i32 {
+            return None;
+        }
         let item= self.queue[index as usize];
-        return item;
+        return Some(item);
     }
 }
 
