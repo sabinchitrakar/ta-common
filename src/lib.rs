@@ -1,3 +1,4 @@
+#![feature(external_doc)]
 pub mod fixed_queue;
 pub mod traits;
 

@@ -1,4 +1,5 @@
 #[allow(dead_code)]
+#[doc(include="../README.md")]
 pub struct FixedQueue<T:Copy>{
     queue:Vec<T>,
     capacity:u32
