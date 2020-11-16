@@ -3,6 +3,10 @@ name = "ta-common"
 version = "0.1.0"
 authors = ["immortal infidel <immortal.infidel@gmail.com>"]
 edition = "2018"
+license="MIT"
+description="Common traits and models for technical indicators"
+repository="https://github.com/immortalinfidel/ta-common.git"
+homepage="https://github.com/immortalinfidel/ta-common"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
