@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/immortalinfidel/ta-common-rs.svg?branch=master)](https://travis-ci.com/immortalinfidel/ta-common-rs)
+
 # ta-common
 Common Traits For Technical Indicators
 
