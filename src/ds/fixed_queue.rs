@@ -1,5 +1,5 @@
 #[allow(dead_code)]
-#[doc(include = "../README.md")]
+#[doc(include = "../../README.md")]
 #[derive(Debug,Clone)]
 pub struct FixedQueue<T: Copy> {
     queue: Vec<T>,

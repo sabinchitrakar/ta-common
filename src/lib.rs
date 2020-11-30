@@ -1,7 +1,11 @@
 #![feature(external_doc)]
-pub mod fixed_queue;
+
 pub mod traits;
 pub mod helpers;
+mod ds;
+pub mod math;
+
+pub use ds::fixed_queue;
 
 
 #[cfg(test)]
